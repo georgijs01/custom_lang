@@ -1,0 +1,3 @@
+scope <- "{" {expression} "}"
+function <- "fn(" {ident, } [ident] ") -> scope
+if_statement <- "if"

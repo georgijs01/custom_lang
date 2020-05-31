@@ -1,0 +1,14 @@
+Basic rules:
+- all data is immutable
+    -> values can only be reassigned, never changed
+- copy semantics for all values
+
+
+basic organization: scopes
+- scope defined as list of expressions enclosed in curly brackets:
+{
+    expr1
+    expr2
+    expr3
+}
+- scope implicitly evaluates to the value of the last expression:
