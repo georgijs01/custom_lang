@@ -1,0 +1,21 @@
+function definition:
+
+fib := fn(n) -> {
+    if n < 2 {
+        return n;
+    } else {
+        return fib(n - 1) + fib(n - 2);
+    }
+}
+
+
+create_add := fn(n) -> {
+    return fn(x) -> x + n;
+}
+
+main := fn() -> {
+    nums := range(0, 100);
+    fibs := map(nums, fib);
+    added_fibs := map(fibs, create_add(4));
+    print(added_fibs)
+}

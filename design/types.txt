@@ -1,0 +1,16 @@
+built-in types:
+
+integer:
+- standard integer implementation, 64-bit width?
+floating point number
+- double precision floating point numbers
+boolean
+string
+vector
+- variable-length collection
+- declared as [v1, v2, ... vn]
+hashmap
+- declared as {k1: v1, k2: v2, ..., kn: vn}
+tuple
+- declared as (v1, v2, v3)
+-? possibly too similar to vector, as lang is dynamically typed anyway

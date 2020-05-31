@@ -1,0 +1,11 @@
+Execution is divided into phases:
+
+1. Lexing
+Split text into tokens
+
+2. Parsing
+Assemble tokens into AST
+
+3. Evaluation
+    - AST is evaluated, program state is modified
+
